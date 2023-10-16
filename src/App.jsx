@@ -1,10 +1,11 @@
 import "./App.css";
-import TaskManager from "./components/scheduleManager/TaskManager";
+// import TaskManager from "./components/scheduleManager/TaskManager";
+import TaskManagerReducer from "./components/taskManagerReducer/TaskManagerReducer";
 
 function App() {
   return (
     <div>
-      <TaskManager />
+      <TaskManagerReducer />
     </div>
   );
 }
